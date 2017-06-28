@@ -231,7 +231,7 @@ fn cli_matches() -> ArgMatches<'static> {
         .value_name("FILE")
         .allow_hyphen_values(true)
         .default_value("credentials.txt")
-        .help("specifies the json file containing the credentials for b2");
+        .help("Specifies the json file containing the credentials for b2");
     let bucket_arg = Arg::with_name("bucket")
         .short("b")
         .long("bucket")
