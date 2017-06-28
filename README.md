@@ -35,4 +35,13 @@ as `files/file03`.
 
 Note that this library currently prints a lot of information.
 
+# credentials.txt
+
+The credentials file should look like the following:
+
+    {
+      "id": "012345678910",
+      "key": "0123456789abcdef0123456789abcdef0123456789"
+    }
+
   [1]: https://github.com/Darksonn/backblaze-b2-rs
